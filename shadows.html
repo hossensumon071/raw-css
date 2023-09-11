@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shadows</title>
+    <style>
+        body {
+            /* background-color: rgb(209, 225, 230); */
+            background-color: #d1e1e6;
+        }
+        .box {
+            width: 300px;
+            height: 300px;
+            /* background-color: crimson; */
+            background-color: aliceblue;
+            background-color: white;
+            margin: 0 auto;
+            border-radius: 8px;
+            /* box-shadow: x y blur color; */
+            /* blur rate barale shadow hobe smooth r blur rate komale shadow hobe hard  */
+            /* box-shadow: 5px 5px 30px black; */
+            /* box-shadow: -10px -10px 10px black; */
+            /* box-shadow: 2px 2px (15-20)px rgba(0, 0, 0, 0.1); */ /* normal cases */
+           /* box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);  material shadow use google*/
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1); /* material shadow use google*/
+        }
+
+        .neo-box {
+            width: 300px;
+            height: 300px;
+            /* background-color: #d1e1e6; */
+            /* background-color: crimson; */
+            margin: 100px auto 100px;
+            border-radius: 8px;
+            /* box-shadow: 5px 5px 15px #d1e1e6, -5px -5px 15px #d1e1e6;  first color ta ke dark korte hobe then second color ta ke white korte hobe */
+            box-shadow: 5px 5px 15px #afb8bb, -5px -5px 15px #eef1f1;
+        }
+
+        /* neomorphism  */
+    </style>
+</head>
+<body>
+    <!-- 1. box shadow - regular shadow  -->
+    <!-- 2. Text Shadow  rare case uses -->
+    <div class="box"></div>
+    <div class="neo-box"></div>
+</body>
+</html>
